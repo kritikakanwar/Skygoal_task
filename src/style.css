@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=McLaren&family=Merriweather&family=Montserrat:wght@300&family=Roboto&family=Square+Peg&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    color: #263238;
+}
+
+body
+{
+    background-color: white;
+    width: 1440px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+li
+{
+    list-style-type: none;
+    display:flex;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: grey;
+}
+header
+{
+    /* width: 100%; */
+    height: 100px;
+    box-shadow: 1px 1px 0 rgba(126,126,126,0.8);
+}
+.header
+{
+    padding: 20px;
+}
+.firstsection
+{
+margin: 50px;
+display: inline-flex;
+}
+.firstcontent
+{
+    margin-right: 20px;
+}
+.firstcontent h1
+{
+    width: 545px;
+    height: 192px;
+    top: 74px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64.17px;
+}
+.firstcontent h2
+{
+    color: red;
+    font-size: 30px;
+}
+.firstcontent > p
+{
+    width: 520px;
+    height: 58px;
+    left: 0;
+    top: 290px;
+    font-size: 20px;
+    line-height: 28.94px;
+    font-weight: 400;
+    color: #30444E;
+}
+.readMore
+{
+    background-color:#EE4248;
+    color: white;
+    width: fit-content;
+    width: 161px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 32px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.readmore
+{
+    width: 119px;
+    height: 42px;
+    background-color: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    
+
+}
+
+.readMore p
+{
+    margin: 10px;
+    padding: 10px;
+    width: 97px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+}
+.tablet
+{
+    left: 110px;
+    top: -58px;
+    position: relative;
+}
+.computer
+{
+    position: relative;
+    left: -223px;
+    top: 170px;
+    z-index: 1;
+}
+.person
+{
+    position: relative;
+    left:-30%;
+    z-index: 1;
+    top:169px;
+}
+.mobile
+{
+    position: relative;
+    /* top: -144px; */
+    /* left: 140px; */
+    top: -146px;
+    left: 43%;
+
+}
+.vector1
+{
+    position: absolute;
+   left: 42%;
+   top: 35%;
+
+}   
+.secondsection
+{
+    background-color:#F6F6F6;
+    display: flex;
+    height: 500px;
+    width: 1440px;
+}
+.secondsection >div
+{
+    margin: 40px;
+}
+span
+{
+    color: #EE4248;
+}
+.coffee
+{
+    position: relative;
+    top: -87.5%;
+    left: 26%;
+}
+.plant
+{
+    position: relative;
+    left: -205px;
+    top: -87.5%;
+}
+.person2
+{
+    top: -324px;
+    position: relative;
+    left: 61px;
+}
+.desk
+{
+    position: relative;
+    top: 0px;
+}
+.desktop
+{
+    position: relative;
+    left: 200px;
+}
+.product-div
+{
+    background-color: white;
+    position: relative;
+    top: 20px;
+
+}
+footer
+{
+    background-color:#EE4248;
+    color: white;
+    height: 50px;
+}
+.product-div  h2
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.services
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.services h2
+{
+    height: 37px;
+    width: 194px;
+    color:#EE4248;
+    font-size: 28px;
+    line-height: 37.43px;
+    text-align: justify;
+}
+.services p
+{
+    width: 329px;
+    height: 108px;
+    top: 191px;
+    left: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.readmore p
+{
+    text-align: center;
+    width:87px;
+    height: 26px;
+    color: white;
+    margin: 10px;
+    padding: 7px;
+
+}
+.card
+{
+    width:230px;
+    height:284px;
+    top:141px;
+    left:170px;
+    border-radius: 8px;
+    gap: 7px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    padding: 10px 0;
+}
+.card-img img
+{
+
+background-color:#EE4248;
+border-radius: 12px;
+margin-right: 12px;
+}
+.dept
+{
+    color: #EE4248;
+}
+.mobilespecialist
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+.line
+{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.mobile-div
+{
+    top: 32px;
+    position: relative;
+}
+.mobile-div h2
+{
+    text-align: center;
+    width: 247px;
+    height: 45px;
+    margin: auto;
+}
+.contact-h2
+{
+    text-align: center;
+}
+.contact-div
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-div p
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  
+}
+.componylogo img
+{
+    margin-right: 20px;
+    width: 115px;
+    height: 48px;
+}
+.company-logo img
+{
+width: 144px;
+height: 25px;
+}
+footer p
+{
+    text-align: center;
+    padding: 17px;
+color: white;
+}
